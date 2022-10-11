@@ -1,0 +1,15 @@
+<h2>Home</h2>
+
+<p>{{data.name}}</p>
+
+<ul>
+    <table>
+    {{#each data}}
+        <tr>
+            <th>{{@key}}: </th>
+            <td>{{this}}</td>
+        </tr>
+    {{/each}}
+    {{!-- <li>{{@key}}: {{this}}</li> --}}
+    </table>
+</ul>
